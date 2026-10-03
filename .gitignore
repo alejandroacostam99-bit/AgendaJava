@@ -1,0 +1,7 @@
+AgendaContactos/
+dist/
+target/
+*.jar
+*.db
+.vscode/
+*.bat

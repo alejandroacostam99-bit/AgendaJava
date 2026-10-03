@@ -1,0 +1,199 @@
+2026-10-03T05:32:56.332Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-10-03T05:32:56.333Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "precheckCompleted",
+  "status": "succeeded",
+  "phase": "precheck",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "25"
+      }
+    ]
+  },
+  "message": "Java 17 Maven project detected; target is Java 25 LTS."
+}}).
+2026-10-03T05:32:56.333Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:32:56.336Z [INFO] Project C:\Users\jhonn\Desktop\agenda-contactos is a maven project, try to get java version from pom.xml
+2026-10-03T05:32:56.342Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20261003053256,\nSession Dir: C:\\Users\\jhonn\\Desktop\\agenda-contactos\\.github\\modernize\\java-upgrade\\20261003053256"
+}}).
+2026-10-03T05:32:56.364Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-10-03T05:32:56.368Z [INFO] Project java version: 17
+2026-10-03T05:32:56.369Z [INFO] Maven project detected.
+2026-10-03T05:32:56.370Z [INFO] Build tool type: mvn
+2026-10-03T05:32:56.906Z [INFO] JDK: undefined
+2026-10-03T05:32:56.908Z [ERROR] Failed to detect or resolve JDK for the project at C:\Users\jhonn\Desktop\agenda-contactos.
+2026-10-03T05:32:56.909Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at C:\Users\jhonn\Desktop\agenda-contactos. Please ensure JDK 17 is installed and properly configured on the machine.
+2026-10-03T05:32:56.912Z [INFO] Maven project detected.
+2026-10-03T05:32:56.914Z [INFO] Project C:\Users\jhonn\Desktop\agenda-contactos is a maven project, try to get java version from pom.xml
+2026-10-03T05:33:00.526Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-10-03T05:33:00.526Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "planGenerationStarted",
+  "status": "succeeded",
+  "phase": "plan",
+  "sessionId": "20261003053256"
+}}).
+2026-10-03T05:33:00.527Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:33:00.528Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-10-03T05:33:00.528Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-10-03T05:33:00.838Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-10-03T05:33:00.838Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "planGenerationStarted",
+  "status": "succeeded",
+  "phase": "plan",
+  "sessionId": "20261003053256"
+}}).
+2026-10-03T05:33:00.839Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:33:00.841Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20261003053256,\nSession Dir: C:\\Users\\jhonn\\Desktop\\agenda-contactos\\.github\\modernize\\java-upgrade\\20261003053256"
+}}).
+2026-10-03T05:33:00.841Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-10-03T05:33:09.285Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-10-03T05:33:09.286Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20261003053256"
+}}).
+2026-10-03T05:33:09.286Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:33:09.287Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-10-03T05:33:09.287Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-10-03T05:33:09.535Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-10-03T05:33:09.535Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20261003053256"
+}}).
+2026-10-03T05:33:09.536Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:33:09.570Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 21.0.11\n   📁 Path: C:\\Program Files\\Java\\jdk-21.0.11\\bin\n   🏷️ Source: others\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-10-03T05:33:09.570Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-10-03T05:33:09.711Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-10-03T05:33:09.711Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20261003053256",
+  "includeVersion": true
+}}).
+2026-10-03T05:33:09.714Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:33:09.715Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-10-03T05:33:09.716Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-10-03T05:33:10.262Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-10-03T05:33:10.265Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20261003053256",
+  "includeVersion": true
+}}).
+2026-10-03T05:33:10.265Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:33:10.295Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-10-03T05:33:10.295Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-10-03T05:34:10.915Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-10-03T05:34:10.915Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "planReviewed",
+  "status": "succeeded",
+  "phase": "plan",
+  "sessionId": "20261003053256",
+  "message": "Plan targets Java 25 with Maven environment setup, compiler configuration, CVE scan, and final build/test/package verification."
+}}).
+2026-10-03T05:34:10.916Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:34:10.917Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-10-03T05:34:10.927Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-10-03T05:34:11.217Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-10-03T05:34:11.221Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "planReviewed",
+  "status": "succeeded",
+  "phase": "plan",
+  "sessionId": "20261003053256",
+  "message": "Plan targets Java 25 with Maven environment setup, compiler configuration, CVE scan, and final build/test/package verification."
+}}).
+2026-10-03T05:34:11.222Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:34:11.226Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20261003053256,\nSession Dir: C:\\Users\\jhonn\\Desktop\\agenda-contactos\\.github\\modernize\\java-upgrade\\20261003053256"
+}}).
+2026-10-03T05:34:11.226Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-10-03T05:34:14.856Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-10-03T05:34:14.857Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20261003053256",
+  "autoExecute": true
+}}).
+2026-10-03T05:34:14.860Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:34:14.864Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///C:/Users/jhonn/Desktop/agenda-contactos/.github/modernize/java-upgrade/20261003053256/plan.md)"
+}}).
+2026-10-03T05:34:14.865Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-10-03T05:34:15.251Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-10-03T05:34:15.252Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20261003053256",
+  "autoExecute": true
+}}).
+2026-10-03T05:34:15.252Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:34:15.253Z [INFO] Upgrade plan confirmed successfully.
+2026-10-03T05:34:15.254Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-10-03T05:34:15.254Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-10-03T05:34:33.500Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-10-03T05:34:33.501Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "planExecutionStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "sessionId": "20261003053256"
+}}).
+2026-10-03T05:34:33.501Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:34:33.502Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-10-03T05:34:33.503Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-10-03T05:34:33.807Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-10-03T05:34:33.808Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "C:\\Users\\jhonn\\Desktop\\agenda-contactos",
+  "event": "planExecutionStarted",
+  "status": "succeeded",
+  "phase": "execute",
+  "sessionId": "20261003053256"
+}}).
+2026-10-03T05:34:33.809Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:34:36.576Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20261003053256,\nSession Dir: C:\\Users\\jhonn\\Desktop\\agenda-contactos\\.github\\modernize\\java-upgrade\\20261003053256"
+}}).
+2026-10-03T05:34:36.637Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-10-03T05:34:38.960Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-10-03T05:34:38.961Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20261003053256",
+  "version": "25"
+}}).
+2026-10-03T05:34:38.962Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-10-03T05:34:40.295Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-10-03T05:34:40.295Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-10-03T05:34:40.552Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-10-03T05:34:40.553Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20261003053256",
+  "version": "25"
+}}).
+2026-10-03T05:34:40.553Z [INFO] [Tool.invoke] do invoke.
+2026-10-03T05:37:16.877Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\jhonn\\AppData\\Local\\jdks\\jdk-25.0.2\\bin",
+    "version": "25.0.2"
+  },
+  "message": "JDK 25 is installed at C:\\Users\\jhonn\\AppData\\Local\\jdks\\jdk-25.0.2\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-10-03T05:37:16.878Z [INFO] ----------------------invoked appmod-install-jdk----------------------

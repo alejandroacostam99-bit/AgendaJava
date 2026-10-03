@@ -1,0 +1,6 @@
+target/
+dist/
+AgendaContactos/
+*.db
+.vscode/
+*.bat
